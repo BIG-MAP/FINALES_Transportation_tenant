@@ -5,7 +5,7 @@ The transportation tenant created for the use with FINALES.
 
 Documents related to the FINALES project and its broader context can be found on the
 respective Wiki page of the project:
-[https://github.com/BIG-MAP/FINALES2/wiki/Links](https://github.com/BIG-MAP/FINALES2/wiki/Links)
+[https://github.com/BIG-MAP/FINALES2/wiki/General-Information](https://github.com/BIG-MAP/FINALES2/wiki/General-Information)
 
 Links to FINALES:
 
@@ -93,11 +93,20 @@ allows the clients to reply to transport requests in the following two ways:
     The `<actual_new_position>` needs to be supplied in the format as specified in the
     [Schemas used with FINALES v1.1.0](https://github.com/BIG-MAP/FINALES2_schemas).
 
-In both cases, the `%DONE` marker informs the tenant, that the transport was performed successfully. `%` in a message marks it relevant for processing by the tenant. Sending a message containing `#exit` allows a client to disconnect from the chat. All other messages are forwarded to the other clients as usual in chats. All messages are logged and the name chosen for a client in the chat will be used to identify the person/instance/..., who/which executed the transport.
+In both cases, the `%DONE` marker informs the tenant, that the transport was performed successfully.
+`%` in a message marks it relevant for processing by the tenant. Sending a message containing `#exit`
+allows a client to disconnect from the chat. All other messages are forwarded to the other clients as
+usual in chats. All messages are logged and the name chosen for a client in the chat will be used to
+identify the person/instance/..., who/which executed the transport.
     
 
 # Acknowledgements
 
-This project received funding from the European Union’s [Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en) under grant agreement [No 957189](https://cordis.europa.eu/project/id/957189) (BIG-MAP).
-The authors acknowledge BATTERY2030PLUS, funded by the European Union’s Horizon 2020 research and innovation program under grant agreement no. 957213.
-This work contributes to the research performed at CELEST (Center for Electrochemical Energy Storage Ulm-Karlsruhe) and was co-funded by the German Research Foundation (DFG) under Project ID 390874152 (POLiS Cluster of Excellence).
+This project received funding from the European Union’s
+[Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en)
+under grant agreement [No 957189](https://cordis.europa.eu/project/id/957189) (BIG-MAP).
+The authors acknowledge BATTERY2030PLUS, funded by the European Union’s Horizon 2020
+research and innovation program under grant agreement no. 957213.
+This work contributes to the research performed at CELEST (Center for Electrochemical
+Energy Storage Ulm-Karlsruhe) and was co-funded by the German Research Foundation (DFG)
+under Project ID 390874152 (POLiS Cluster of Excellence).
