@@ -96,7 +96,7 @@ allows the clients to reply to transport requests in the following two ways:
 In both cases, the `%DONE` marker informs the tenant, that the transport was performed successfully. `%` in a message marks it relevant for processing by the tenant. Sending a message containing `#exit` allows a client to disconnect from the chat. All other messages are forwarded to the other clients as usual in chats. All messages are logged and the name chosen for a client in the chat will be used to identify the person/instance/..., who/which executed the transport.
     
 
-## Acknowledgements
+# Acknowledgements
 
 This project received funding from the European Union’s [Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en) under grant agreement [No 957189](https://cordis.europa.eu/project/id/957189) (BIG-MAP).
 The authors acknowledge BATTERY2030PLUS, funded by the European Union’s Horizon 2020 research and innovation program under grant agreement no. 957213.
